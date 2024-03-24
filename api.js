@@ -1,7 +1,8 @@
-const http = require('http');
-const hostname = '127.0.0.1';
-const port = 3000;
+//const http = require('http');
+//const hostname = '127.0.0.1';
+//const port = 3000;
 
+//module.exports={fetchImages, fetchRandomCat, uploadCatImage,updateCatImage}
 
 const API_URL = 'https://api.thecatapi.com/v1/images/upload';
 const API_URL_RANDOM = 'https://api.thecatapi.com/v1/images';
@@ -22,7 +23,7 @@ document.getElementById('searchForm').addEventListener('submit', async function 
 
 });
 
-async function fetchImages(url) {
+ async function fetchImages(url) {
     try {
         const response = await fetch(url);
         if (!response.ok) {
