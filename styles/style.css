@@ -1,0 +1,217 @@
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  img {
+    border: 4px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    width: 150px;
+    height: 200px;
+  }
+  
+  .gallerystatic {
+    display: float;
+    justify-content: center;
+    /* Align images horizontally center */
+  }
+  
+  /* Style for images */
+  .gallerystatic img {
+    margin: 0 25px;
+    /* Fixed space between images */
+    max-width: 100%;
+    /* Ensure images don't exceed container width */
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+  }
+  
+  .container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  
+  .cat-image {
+    width: 100%;
+    height: 200px;
+    /* Fixed height for each image */
+    object-fit: cover;
+    /* Maintain aspect ratio */
+    border-radius: 5px;
+  }
+  
+  
+  header {
+    background-color: #6aa679;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .hero {
+    
+    padding: 50px 0;
+  }
+  
+  .hero h2 {
+    margin: 0;
+  }
+  
+  .main-content {
+    padding: 50px 0;
+  }
+  
+  footer {
+    background-color: #333333;
+    color: #786a6a;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Style for donate button */
+  .donate-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Change background color of donate button on hover */
+  .donate-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for popup overlay */
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style for popup content */
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Style for form fields */
+  .popup-content input[type="text"],
+  .popup-content input[type="email"],
+  .popup-content input[type="number"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .popup-content input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Change background color of submit button on hover */
+  .popup-content input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+    /* Style for social media buttons */
+  
+  .social-media {
+    margin-top: 10px;
+  }
+  
+  .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  /* Change color of social media buttons on hover */
+  .social-media a:hover {
+    color: #007bff;
+  }
+  
+  
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 014px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/Thinking-of-getting-a-cat.png);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
