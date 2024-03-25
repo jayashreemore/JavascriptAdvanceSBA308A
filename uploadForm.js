@@ -1,3 +1,4 @@
+
 import { uploadCatImage } from './api.js';
 
 document.getElementById('uploadForm').addEventListener('submit', async function (event) {
@@ -18,3 +19,6 @@ document.getElementById('uploadForm').addEventListener('submit', async function 
         console.error(error);
     }
 });
+
+
+
